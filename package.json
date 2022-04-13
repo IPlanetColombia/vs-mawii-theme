@@ -1,0 +1,30 @@
+{
+    "name": "mawii-development",
+    "displayName": "mawii",
+    "description": "Extension Mawii",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mawii Theme Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Andres-color-theme.json"
+            }
+        ]
+    },
+    "author":{
+        "name": "Wilson Andres Bachiller Ortiz",
+        "email":"wilson@mawii.com.co"
+    },
+    "repository": {
+        "url": "https://github.com/IPlanetColombia/vs-mawii-theme",
+        "type": "git"
+    },
+    "publisher": "mawii"
+}
